@@ -13,7 +13,7 @@
             controller: PokegodexHeaderController,
             controllerAs: 'ctrl',
             link: link,
-            templateUrl:'app/components/pokegodex-header/pokegodex-header.template.html',
+            templateUrl:'app/shared/pokegodex-header/pokegodex-header.template.html',
             restrict: 'E',
             scope: {
             }
