@@ -24,11 +24,16 @@
   <script src="app/shared/pokegodex-header/pokegodex-header.controller.js"></script>
   <script src="app/shared/pokegodex-body/pokegodex-body.controller.js"></script>
   <script src="app/shared/pokegodex-body/pokegodex-body.directive.js"></script>
+  <script src="app/components/pokemon-list/pokemon-list.controller.js"></script>
+  <script src="app/components/pokemon-list/pokemon-list.directive.js"></script>
+  <script src="app/shared/numberFixedLength/numberFixedLength.filter.js"></script>
 </head>
 
 <body ng-app="pokegodex">
   <pokegodex-header></pokegodex-header>
-  <pokegodex-body>asd</pokegodex-body>
+  <pokegodex-body>
+    <pokemon-list></pokemon-list>
+  </pokegodex-body>
 </body>
 
 </html>

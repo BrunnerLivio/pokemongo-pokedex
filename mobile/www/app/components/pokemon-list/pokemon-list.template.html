@@ -1,0 +1,13 @@
+<ul id="pokemon-list">
+    <li class="pokemon" ng-repeat="pokemon in ctrl.pokemons">
+        <ul class="pokemon-types">
+            <li ng-repeat="type in pokemon.Types" class="pokemon-type pokemon-type-{{type | lowercase}}"></li>
+        </ul>
+        <div class="pokemon-image">
+            <img src="assets/images/pokemons/{{pokemon.Id | numberFixedLength:3}}.png" />
+        </div>
+        <div class="pokemon-name">
+            <span>{{pokemon.Name}}</span>
+        </div>
+    </li>
+</ul>
