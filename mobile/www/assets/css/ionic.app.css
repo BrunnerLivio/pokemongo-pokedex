@@ -9852,6 +9852,19 @@ table {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Regular.eot?") format("eot"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#Montserrat") format("svg"); }
 
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 200;
+  src: url("../fonts/OpenSans-Light.eot?") format("eot"), url("../fonts/OpenSans-Light.woff2") format("woff2"), url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.ttf") format("truetype"), url("../fonts/OpenSans-Light.svg#Open_Sans") format("svg"); }
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  src: url("../fonts/OpenSans-Regular.eot?") format("eot"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg#Open_Sans") format("svg"); }
+
+body {
+  font-family: 'Open Sans'; }
+
 .vertical-divider {
   width: 1px;
   height: 80%;
@@ -9886,3 +9899,7 @@ table {
   #pokegodex-header .left {
     position: absolute;
     left: 10px; }
+
+#pokegodex-body {
+  height: calc(100vh - 50px);
+  border: #dc0a2d 2px solid; }

@@ -1,4 +1,11 @@
 @include font-face(Montserrat, '../fonts/Montserrat-Regular');
+@include font-face('Open Sans', '../fonts/OpenSans-Light', 200);
+@include font-face('Open Sans', '../fonts/OpenSans-Bold', bold);
+@include font-face('Open Sans', '../fonts/OpenSans-Regular', normal);
+body{
+    font-family:'Open Sans';
+    color:#2b2b2b;
+}
 .vertical-divider{
     width:1px;
     height:80%;

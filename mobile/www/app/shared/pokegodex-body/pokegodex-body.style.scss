@@ -1,0 +1,4 @@
+#pokegodex-body{
+    height:calc(100vh - #{$header-height});
+    border:$stable 2px solid;
+}
