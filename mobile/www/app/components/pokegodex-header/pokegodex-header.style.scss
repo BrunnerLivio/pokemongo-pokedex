@@ -1,0 +1,31 @@
+#pokegodex-header{
+    background-color:$stable;
+    height:50px;
+    width:100%;
+    position:relative;
+    .title{
+        color:white;
+        font-family:'Montserrat', sans-serif;
+        text-align: center;
+        width:100%;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+    }
+    .button-icon{
+        color:white;
+    }
+    .left, .right{
+        width:60px;
+        height:40px;
+    }
+    .right{
+        position:absolute;
+        right:10px;
+    }
+    .left{
+        position: absolute;
+        left:10px;
+    }
+}
