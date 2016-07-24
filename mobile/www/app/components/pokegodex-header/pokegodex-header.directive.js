@@ -21,6 +21,6 @@
         return directive;
     }
     angular
-        .module('pokemonGOPokedex')
+        .module('pokegodex')
         .directive('pokegodexHeader', pokegodexHeader);
 })();

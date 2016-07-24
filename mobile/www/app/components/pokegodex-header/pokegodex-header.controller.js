@@ -6,6 +6,6 @@
     }
 
     angular
-        .module('pokemonGOPokedex')
+        .module('pokegodex')
         .controller('PokegodexHeaderController', PokegodexHeaderController);
 })();

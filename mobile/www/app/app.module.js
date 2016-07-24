@@ -1,4 +1,4 @@
-angular.module('pokemonGOPokedex', ['ionic'])
+angular.module('pokegodex', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
