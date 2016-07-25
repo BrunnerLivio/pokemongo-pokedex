@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    
+
     function RoutesConfig($urlRouterProvider, $stateProvider) {
         $stateProvider
             .state('app', {
@@ -16,6 +16,13 @@
                 controllerAs: 'ctrl'
             });
 
+        $stateProvider
+            .state('app.detail', {
+                url: '/pokemon/:pokemonId',
+                templateUrl: 'app/components/pokemon-detail/pokemon-detail.view.html',
+                controller: 'PokemonDetailController',
+                controllerAs: 'ctrl'
+            });
         $urlRouterProvider.otherwise('/');
     }
 

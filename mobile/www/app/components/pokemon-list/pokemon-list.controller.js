@@ -1,11 +1,16 @@
 (function () {
     'use strict';
 
-    function PokemonListController(PokegodexService) {
+    function PokemonListController(PokegodexService, $location) {
         var ctrl = this;
-        PokegodexService.getPokemons().success(function(data){
-            ctrl.pokemons = data;
-        });
+        PokegodexService.getPokemons()
+            .then(function(data){
+                ctrl.pokemons = data;
+            });
+
+        ctrl.openPokemon = function(pokemonId){
+            $location.path('/pokemon/' + pokemonId);
+        };
     }
 
     angular
