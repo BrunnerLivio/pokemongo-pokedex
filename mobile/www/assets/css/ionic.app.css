@@ -9880,6 +9880,10 @@ body {
   margin-right: 5px;
   margin-left: 5px; }
 
+[ui-view] {
+  height: 100%;
+  overflow-y: auto; }
+
 #pokemon-list {
   overflow-y: auto;
   height: 100%; }
