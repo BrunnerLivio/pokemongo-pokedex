@@ -1,6 +1,12 @@
 (function () {
     'use strict';
     function link(scope, element, attrs) {
+        var currentColor = null;
+        scope.$watch('ctrl.newColor', function (newColor, oldColor) {
+            if (currentColor !== newColor) {
+            }
+
+        });
     }
 
     function pokegodexBody() {
@@ -10,8 +16,8 @@
             controllerAs: 'ctrl',
             link: link,
             restrict: 'E',
-            templateUrl:'app/shared/pokegodex-body/pokegodex-body.template.html',
-            transclude:true
+            templateUrl: 'app/shared/pokegodex-body/pokegodex-body.template.html',
+            transclude: true
         };
         return directive;
     }

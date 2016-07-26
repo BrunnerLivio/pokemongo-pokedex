@@ -9956,7 +9956,7 @@ body {
       color: #6D6D6D; }
 
 .pokemon-detail-header {
-  background-color: #E44A4C;
+  background-color: #61A04F;
   height: 180px;
   width: 100%;
   color: white;
@@ -10003,7 +10003,6 @@ body {
     color: #424242; }
 
 #pokegodex-header {
-  background-color: #dc0a2d;
   height: 50px;
   width: 100%;
   position: relative; }
@@ -10028,6 +10027,31 @@ body {
     position: absolute;
     left: 10px; }
 
-#pokegodex-body {
-  height: calc(100vh - 50px);
-  border: #dc0a2d 2px solid; }
+#pokegodex-body-container {
+  height: calc(100vh - 50px - 8px);
+  width: calc(100vw - 8px);
+  margin-top: 4px;
+  margin-left: 4px;
+  background-color: white; }
+
+#pokegodex-background {
+  height: 100vh;
+  width: 100vw;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  background-color: #dc0a2d;
+  position: absolute; }
+
+#pokegodex-animated-background {
+  z-index: -1;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 500px;
+  transition: all 0.5s ease-in-out; }
+  #pokegodex-animated-background.extended {
+    transform: translate(-50%, -50%) scale(5); }

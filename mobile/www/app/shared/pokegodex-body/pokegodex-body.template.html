@@ -1,3 +1,5 @@
 <div id="pokegodex-body">
-    <ng-transclude></ng-transclude>
+    <div id="pokegodex-body-container" ng-transclude></div>
+    <div id="pokegodex-background"  ng-style="{'background-color':ctrl.backgroundColor}"></div>
+    <div id="pokegodex-animated-background" ng-style="{'background-color':ctrl.animatedBackgroundColor}" ng-class="{extended: ctrl.isBackgroundExtened}"></div>
 </div>

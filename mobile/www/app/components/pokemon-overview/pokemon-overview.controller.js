@@ -1,8 +1,9 @@
 (function () {
     'use strict';
 
-    function PokemonOverviewController() {
-        var vm = this;
+    function PokemonOverviewController(ThemeService) {
+        var ctrl = this;
+        ThemeService.changeColor("#dc0a2d");
     }
 
     angular
