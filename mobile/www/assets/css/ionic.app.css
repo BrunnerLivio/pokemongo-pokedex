@@ -9955,6 +9955,53 @@ body {
       text-transform: uppercase;
       color: #6D6D6D; }
 
+.pokemon-detail-header {
+  background-color: #E44A4C;
+  height: 180px;
+  width: 100%;
+  color: white;
+  padding: 20px; }
+
+.pokemon-detail-number {
+  font-size: 25px; }
+
+.pokemon-detail-name {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 15px; }
+
+.pokemon-detail-types {
+  margin-top: 15px; }
+
+.pokemon-detail-specs {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex-direction: row; }
+  .pokemon-detail-specs-box {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #efefef 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #efefef 100%);
+    background: radial-gradient(ellipse at center, #ffffff 0%, #efefef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=1 ); }
+  .pokemon-detail-specs-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    width: 100%;
+    margin-top: 10px;
+    color: #757575; }
+  .pokemon-detail-specs-value {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    color: #424242; }
+
 #pokegodex-header {
   background-color: #dc0a2d;
   height: 50px;

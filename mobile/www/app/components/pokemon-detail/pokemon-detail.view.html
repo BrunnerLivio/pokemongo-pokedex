@@ -1,0 +1,41 @@
+<div class="pokemon-detail">
+    <header class="pokemon-detail-header">
+        <span class="pokemon-detail-number" ng-bind="ctrl.pokemon.Id | numberFixedLength:3"></span>
+        <h1 class="pokemon-detail-name" ng-bind="ctrl.pokemon.Name"></h1>
+        <div class="pokemon-detail-types">
+            <span ng-repeat="type in ctrl.pokemon.Types">
+                <span ng-if="$index > 0">/</span>
+            <span ng-bind="type"></span>
+            </span>
+            <span>Pokémon</span>
+        </div>
+    </header>
+    <div class="pokemon-detail-specs">
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Avg. Height
+            </div>
+            <div class="pokemon-detail-specs-value">
+                <span ng-bind="ctrl.pokemon.AverageHeight"></span>
+                <span>m</span>
+            </div>
+        </div>
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Avg. Weight
+            </div>
+            <div class="pokemon-detail-specs-value">
+                <span ng-bind="ctrl.pokemon.AverageWeight"></span>
+                <span>kg</span>
+            </div>
+        </div>
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Rarity
+            </div>
+            <div class="pokemon-detail-specs-value">
+                
+            </div>
+        </div>
+    </div>
+</div>
