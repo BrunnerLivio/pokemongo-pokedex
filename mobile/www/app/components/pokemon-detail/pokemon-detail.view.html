@@ -1,4 +1,4 @@
-<div class="pokemon-detail">
+<div class="pokemon-detail" ng-class="{'slideIn' : !ctrl.slideIn}">
     <header class="pokemon-detail-header">
         <span class="pokemon-detail-number" ng-bind="ctrl.pokemon.Id | numberFixedLength:3"></span>
         <h1 class="pokemon-detail-name" ng-bind="ctrl.pokemon.Name"></h1>
@@ -8,6 +8,9 @@
             <span ng-bind="type"></span>
             </span>
             <span>Pokémon</span>
+        </div>
+        <div class="pokemon-detail-image">
+            <img src="assets/images/pokemons/{{ctrl.pokemon.Id | numberFixedLength:3}}.png" />
         </div>
     </header>
     <div class="pokemon-detail-specs">

@@ -5,18 +5,32 @@
         width:100%;
         color:white;
         padding:20px;
+        position:relative;
+    }
+    &-image{
+        position:absolute;
+        right:0px;
+        bottom:0px;
+        opacity:1;
+        transition:all 0.5s ease-in-out;
     }
     &-number{
         font-size:25px;
+        transition:all 0.5s ease-in-out;
+        opacity:1;
     }
     &-name{
         font-size:40px;
         text-transform:uppercase;
         color:white;
         margin-top:15px;
+        transition:all 0.5s ease-in-out;
+        opacity:1;
     }
     &-types{
         margin-top:15px;
+        transition:all 0.5s ease-in-out;
+        opacity:1;
     }
     &-specs{
         display:flex;
@@ -47,6 +61,28 @@
             font-size:16px;
             width:100%;
             color:#424242;
+            transition:all 0.5s ease-in-out;
+        }
+    }
+    &.slideIn{
+        .pokemon-detail-name{
+            transform:translateX(-30px);
+            opacity:0;
+        }
+        .pokemon-detail-types{
+            transform:translateX(-30px);
+            opacity:0;
+        }
+        .pokemon-detail-number{
+            opacity:0;
+        }
+        .pokemon-detail-image{
+            opacity:0;
+            transform:translateX(20px);
+        }
+        .pokemon-detail-specs-value{
+            transform:translateY(20px);
+            opacity:0;
         }
     }
 }
