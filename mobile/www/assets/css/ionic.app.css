@@ -10036,6 +10036,19 @@ body {
   transform: translateY(20px);
   opacity: 0; }
 
+.pokemon-detail-body-evolutions {
+  display: flex;
+  flex-direction: row; }
+
+.pokemon-detail-body-evolution {
+  flex-grow: 1;
+  position: relative; }
+  .pokemon-detail-body-evolution img {
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+
 #pokegodex-header {
   height: 50px;
   width: 100%;

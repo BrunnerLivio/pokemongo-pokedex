@@ -85,4 +85,20 @@
             opacity:0;
         }
     }
+    &-body{
+        &-evolutions{
+            display:flex;
+            flex-direction: row;
+        }  
+        &-evolution{
+            flex-grow:1;
+            position:relative;
+            img{
+                height:100px;
+                position:absolute;
+                left:50%;
+                transform:translateX(-50%);
+            }
+        }
+    }
 }

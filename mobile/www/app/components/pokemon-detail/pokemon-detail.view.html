@@ -34,10 +34,43 @@
         </div>
         <div class="pokemon-detail-specs-box">
             <div class="pokemon-detail-specs-title">
-                Rarity
+                Weaknesses
             </div>
             <div class="pokemon-detail-specs-value">
                 
+            </div>
+        </div>
+    </div>
+    <div class="pokemon-detail-specs">
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Base Attack
+            </div>
+            <div class="pokemon-detail-specs-value">
+                <span ng-bind="ctrl.pokemon.Stats.BaseAttack"></span>
+            </div>
+        </div>
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Base Defense
+            </div>
+            <div class="pokemon-detail-specs-value">
+                <span ng-bind="ctrl.pokemon.Stats.BaseDefense"></span>
+            </div>
+        </div>
+        <div class="pokemon-detail-specs-box">
+            <div class="pokemon-detail-specs-title">
+                Base Stamina
+            </div>
+            <div class="pokemon-detail-specs-value">
+                <span ng-bind="ctrl.pokemon.Stats.BaseStamina"></span>
+            </div>
+        </div>
+    </div>
+    <div class="pokemon-detail-body">
+        <div class="pokemon-detail-body-evolutions">
+            <div class="pokemon-detail-body-evolution" ng-repeat="evolution in ctrl.pokemon.ParentEvolutions">
+                <img src="assets/images/pokemons/{{evolution.Id | numberFixedLength:3}}.png" />
             </div>
         </div>
     </div>
