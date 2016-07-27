@@ -4,13 +4,10 @@
     function link(scope, element, attrs) {
     }
     
-    function PokegodexHeaderController() {
-
-    }
     function pokegodexHeader() {
         var directive = {
             bindToController: true,
-            controller: PokegodexHeaderController,
+            controller: 'PokegodexHeaderController',
             controllerAs: 'ctrl',
             link: link,
             templateUrl:'app/shared/pokegodex-header/pokegodex-header.template.html',

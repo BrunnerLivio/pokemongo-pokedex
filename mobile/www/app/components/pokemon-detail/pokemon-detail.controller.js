@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    function PokemonDetailController(PokegodexService, $stateParams, ThemeService, $timeout) {
+    function PokemonDetailController(PokegodexService, $stateParams, ThemeService, $timeout, PokegodexHeaderService) {
         var ctrl = this;
 
         PokegodexService.getPokemonById($stateParams.pokemonId)
@@ -16,6 +16,8 @@
         $timeout(function(){
             ctrl.slideIn= true;
         }, 100);
+
+        PokegodexHeaderService.setHistoryBackPath('/');
     }
 
     angular
