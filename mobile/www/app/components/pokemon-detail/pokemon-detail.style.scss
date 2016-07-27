@@ -1,74 +1,90 @@
 @import 'pokemon-detail-specs/pokemon-detail-specs.style';
-.pokemon-detail{
-    &-header{
-        height:180px;
-        width:100%;
-        color:white;
-        padding:20px;
-        position:relative;
-        background-color:rgba(0,0,0,0.1);
+
+.pokemon-detail {
+
+    &-header {
+        height: 180px;
+        width: 100%;
+        color: white;
+        padding: 20px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.1);
     }
-    &-image{
-        position:absolute;
-        right:0px;
-        bottom:0px;
-        opacity:1;
-        transition:all 0.5s ease-in-out;
+
+    &-image {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
     }
-    &-number{
-        font-size:25px;
-        transition:all 0.5s ease-in-out;
-        opacity:1;
+
+    &-number {
+        font-size: 25px;
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
     }
-    &-name{
-        font-size:40px;
-        text-transform:uppercase;
-        color:white;
-        margin-top:15px;
-        transition:all 0.5s ease-in-out;
-        opacity:1;
+
+    &-name {
+        font-size: 40px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 15px;
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
     }
-    &-types{
-        margin-top:15px;
-        transition:all 0.5s ease-in-out;
-        opacity:1;
+
+    &-types {
+        margin-top: 15px;
+        transition: all 0.5s ease-in-out;
+        opacity: 1;
     }
-    &.slideIn{
-        .pokemon-detail-name{
-            transform:translateX(-30px);
-            opacity:0;
+
+    &.slideIn {
+
+        .pokemon-detail-name {
+            opacity: 0;
+            transform: translateX(-30px);
         }
-        .pokemon-detail-types{
-            transform:translateX(-30px);
-            opacity:0;
+
+        .pokemon-detail-types {
+            transform: translateX(-30px);
+            opacity: 0;
         }
-        .pokemon-detail-number{
-            opacity:0;
+
+        .pokemon-detail-number {
+            opacity: 0;
         }
-        .pokemon-detail-image{
-            opacity:0;
-            transform:translateX(20px);
+
+        .pokemon-detail-image {
+            opacity: 0;
+            transform: translateX(20px);
         }
-        .pokemon-detail-specs-value{
-            transform:translateY(20px);
-            opacity:0;
+
+        .pokemon-detail-specs-value {
+            transform: translateY(20px);
+            opacity: 0;
         }
     }
-    &-body{
-        background-color:white;
-        min-height:200px;
-        &-evolutions{
-            display:flex;
+
+    &-body {
+        background-color: white;
+        min-height: 200px;
+
+        &-evolutions {
+            display: flex;
             flex-direction: row;
-        }  
-        &-evolution{
-            flex-grow:1;
-            position:relative;
-            img{
-                height:100px;
-                position:absolute;
-                left:50%;
-                transform:translateX(-50%);
+        }
+
+        &-evolution {
+            flex-grow: 1;
+            position: relative;
+
+            img {
+                height: 100px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
     }
