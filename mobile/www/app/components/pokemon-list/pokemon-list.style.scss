@@ -1,6 +1,7 @@
 #pokemon-list{
     overflow-y:auto;    
     height:100%;
+    background-color:white;
     .pokemon{
         width:100%;
         height:70px;
@@ -32,57 +33,6 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                }
-                &-grass{
-                    background-color:#61A04F;
-                }
-                &-poison{
-                    background-color:#BB91DD;
-                }
-                &-fire{
-                    background-color:#E44A4C;
-                }
-                &-flying{
-                    background-color:#7F8FEE;
-                }
-                &-water{
-                    background-color:#4D89E1;
-                }
-                &-bug{
-                    background-color:#80B281;
-                }
-                &-normal{
-                    background-color:#BBBBAA;
-                }
-                &-electric{
-                    background-color:#FFCC33;
-                }
-                &-fairy{
-                    background-color:#FFAAFF;
-                }
-                &-ground{
-                    background-color:#DDBB55;
-                }
-                &-psychic{
-                    background-color:#FF5599;
-                }
-                &-fighting{
-                    background-color:#BB5544;
-                }
-                &-rock{
-                    background-color:#DDCC99;
-                }
-                &-steel{
-                    background-color:#AAAABB;
-                }
-                &-ice{
-                    background-color:#77DDFF;
-                }
-                &-ghost{
-                    background-color:#6666BB;
-                }
-                &-dragon{
-                    background-color:#7766EE;
                 }
             }
             

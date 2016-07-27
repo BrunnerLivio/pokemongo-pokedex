@@ -7,14 +7,15 @@
         PokegodexService.getPokemonById($stateParams.pokemonId)
             .then(function (pokemon) {
                 ctrl.pokemon = pokemon;
+                ctrl.typeColor = pokemon.Types[0].Color;
+                ThemeService.changeColor(ctrl.typeColor);
             });
-        
-        ThemeService.changeColor("#406a34");
+
 
         ctrl.slideIn = false;
 
-        $timeout(function(){
-            ctrl.slideIn= true;
+        $timeout(function () {
+            ctrl.slideIn = true;
         }, 100);
 
         PokegodexHeaderService.setHistoryBackPath('/');

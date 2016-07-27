@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    function PokegodexService($http, $q) {
+    function PokegodexService($http, $q, PokegodexTypesColorService) {
         var self = this;
         function loadPokemons() {
             var deferred = $q.defer();
@@ -9,7 +9,8 @@
             if (self.pokemons === undefined) {
                 $http.get('../../assets/data/Pokemon.json')
                     .then(function (data) {
-                        self.pokemons = data.data;
+                        self.pokemons = PokegodexTypesColorService.modifyPokemonData(data.data);
+                        console.log(self.pokemons);
                         deferred.resolve(self.pokemons);
                     }, function (response) {
                         deferred.reject(response);

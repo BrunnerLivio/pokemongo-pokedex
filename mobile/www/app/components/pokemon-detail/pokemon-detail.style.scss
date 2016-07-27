@@ -1,11 +1,11 @@
 .pokemon-detail{
     &-header{
-        background-color:#61A04F;
         height:180px;
         width:100%;
         color:white;
         padding:20px;
         position:relative;
+        background-color:rgba(0,0,0,0.1);
     }
     &-image{
         position:absolute;
@@ -86,6 +86,8 @@
         }
     }
     &-body{
+        background-color:white;
+        min-height:200px;
         &-evolutions{
             display:flex;
             flex-direction: row;
