@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    function PokemonDetailController(PokegodexService, $stateParams, ThemeService, $timeout, PokegodexHeaderService) {
+    function PokemonDetailController(PokegodexService, $stateParams, ThemeService, $timeout, PokegodexHeaderService, $location) {
         var ctrl = this;
 
         PokegodexService.getPokemonById($stateParams.pokemonId)
@@ -11,6 +11,10 @@
                 ThemeService.changeColor(ctrl.typeColor);
             });
 
+
+        ctrl.gotoEvolution = function (evolution) {
+            $location.path('/pokemon/' + evolution.Id);
+        };
 
         ctrl.slideIn = false;
 
