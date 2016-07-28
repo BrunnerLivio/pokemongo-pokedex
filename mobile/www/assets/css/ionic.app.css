@@ -9924,9 +9924,9 @@ body {
 
 .pokemon-detail-specs {
   display: flex;
+  flex-direction: row;
   height: 80px;
-  width: 100%;
-  flex-direction: row; }
+  width: 100%; }
   .pokemon-detail-specs-box {
     flex-grow: 1;
     height: 100%;
@@ -9934,8 +9934,7 @@ body {
     background: #ffffff;
     background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #efefef 100%);
     background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #efefef 100%);
-    background: radial-gradient(ellipse at center, #ffffff 0%, #efefef 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=1 ); }
+    background: radial-gradient(ellipse at center, #ffffff 0%, #efefef 100%); }
   .pokemon-detail-specs-title {
     text-align: center;
     font-size: 14px;
@@ -9950,6 +9949,15 @@ body {
     width: 100%;
     color: #424242;
     transition: all 0.5s ease-in-out; }
+  .pokemon-detail-specs-weaknesses {
+    display: flex;
+    flex-wrap: wrap; }
+  .pokemon-detail-specs-weakness {
+    flex-grow: 1;
+    width: 50%;
+    display: inline-block;
+    height: 20px;
+    margin-bottom: 2px; }
 
 .pokemon-detail-header {
   height: 180px;
@@ -9985,8 +9993,8 @@ body {
   opacity: 1; }
 
 .pokemon-detail.slideIn .pokemon-detail-name {
-  transform: translateX(-30px);
-  opacity: 0; }
+  opacity: 0;
+  transform: translateX(-30px); }
 
 .pokemon-detail.slideIn .pokemon-detail-types {
   transform: translateX(-30px);
@@ -10032,7 +10040,8 @@ body {
     transform: translate(-50%, -50%); }
   #pokegodex-header .button-icon {
     color: white; }
-  #pokegodex-header .left, #pokegodex-header .right {
+  #pokegodex-header .left,
+  #pokegodex-header .right {
     width: 60px;
     height: 40px; }
   #pokegodex-header .right {
