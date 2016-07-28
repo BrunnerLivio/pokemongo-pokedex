@@ -36,7 +36,7 @@ function getDirectories(srcpath) {
 }
 let tasks = getDirectories(__dirname + '/tasks');
 if (_.includes(tasks, program.task)) {
-    runScript(__dirname + '/tasks/' + program.task + '/index.js', (err) => {
+    runScript(__dirname + '/tasks/' + program.task + '/src/index.js', (err) => {
         if (err) throw err;
     });
 }
