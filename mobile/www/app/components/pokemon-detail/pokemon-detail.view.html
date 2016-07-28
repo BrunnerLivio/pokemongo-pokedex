@@ -15,6 +15,7 @@
     </header>
     <pokemon-detail-specs></pokemon-detail-specs>
     <div class="pokemon-detail-body">
+        <poke-type class="pokemon-detail-specs-weakness" ng-repeat="weakness in ctrl.pokemon.Weaknesses" type="{{weakness}}"></poke-type>
         <div class="pokemon-detail-body-evolutions">
             <div class="pokemon-detail-body-evolution" ng-repeat="evolution in ctrl.pokemon.Evolutions" ng-click="ctrl.gotoEvolution(evolution)">
                 <img src="assets/images/pokemons/{{evolution.Id | numberFixedLength:3}}.png" />
