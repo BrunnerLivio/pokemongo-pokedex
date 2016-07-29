@@ -70,7 +70,14 @@
     &-body {
         background-color: white;
         min-height: 200px;
-
+        h3{
+            font-size:10px;
+            color:#9e9e9e;
+            text-transform: uppercase;
+            text-align: right;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
         &-evolutions {
             display: flex;
             flex-direction: row;
@@ -86,6 +93,12 @@
                 left: 50%;
                 transform: translateX(-50%);
             }
+        }
+        &-weaknesses{
+            width:90px;
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-end;
         }
     }
 }
