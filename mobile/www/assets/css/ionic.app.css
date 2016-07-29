@@ -9882,7 +9882,8 @@ body {
 
 [ui-view] {
   height: 100%;
-  overflow-y: auto; }
+  overflow-y: auto;
+  overflow-x: hidden; }
 
 #pokemon-list {
   overflow-y: auto;
