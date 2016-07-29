@@ -1,4 +1,4 @@
-angular.module('pokegodex', ['pokegodex.routes', 'ionic'])
+angular.module('pokegodex', ['pokegodex.routes', 'ionic', 'chart.js'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
