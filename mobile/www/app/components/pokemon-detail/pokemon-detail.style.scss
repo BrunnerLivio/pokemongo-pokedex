@@ -1,4 +1,5 @@
 @import 'pokemon-detail-specs/pokemon-detail-specs.style';
+@import 'pokemon-detail-stats-chart/pokemon-detail-stats-chart.style';
 
 .pokemon-detail {
 
@@ -69,7 +70,7 @@
 
     &-body {
         background-color: white;
-        min-height: 200px;
+        min-height: 400px;
         h3{
             font-size:10px;
             color:#9e9e9e;
@@ -95,7 +96,7 @@
             }
         }
         &-weaknesses{
-            width:90px;
+            width:120px;
             display:flex;
             flex-direction: row;
             justify-content: flex-end;

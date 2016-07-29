@@ -7,6 +7,7 @@
             controller:'PokemonDetailStatsChartController',
             scope:{pokemon: '='},
             controllerAs:'ctrl',
+            replace:true,
             templateUrl:'app/components/pokemon-detail/pokemon-detail-stats-chart/pokemon-detail-stats-chart.template.html'
         };
         return directive;
