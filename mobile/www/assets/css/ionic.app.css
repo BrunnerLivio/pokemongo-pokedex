@@ -10060,10 +10060,9 @@ body {
     left: 10px; }
 
 #pokegodex-body-container {
-  height: calc(100vh - 50px - 8px);
-  width: calc(100vw - 8px);
-  margin-top: 4px;
-  margin-left: 4px; }
+  height: calc(100vh - 50px - 5px);
+  width: 100vw;
+  margin-top: 4px; }
 
 #pokegodex-background {
   height: 100vh;
@@ -10071,7 +10070,7 @@ body {
   z-index: -2;
   left: 0;
   top: 0;
-  background-color: #dc0a2d;
+  background-color: #E44A4C;
   position: absolute; }
 
 #pokegodex-animated-background {

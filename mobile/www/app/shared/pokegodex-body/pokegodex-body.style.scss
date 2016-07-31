@@ -1,8 +1,7 @@
 #pokegodex-body-container {
-    height: calc(100vh - #{$header-height} - 8px);
-    width: calc(100vw - 8px);
+    height: calc(100vh - #{$header-height} - 5px);
+    width: 100vw;
     margin-top: 4px;
-    margin-left: 4px;
 }
 
 #pokegodex-background {
@@ -11,7 +10,7 @@
     z-index: -2;
     left: 0;
     top: 0;
-    background-color: #dc0a2d;
+    background-color: #E44A4C;
     position: absolute;
 }
 

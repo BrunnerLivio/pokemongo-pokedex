@@ -3,7 +3,7 @@
 
     function PokemonOverviewController(ThemeService, PokegodexHeaderService) {
         var ctrl = this;
-        ThemeService.changeColor("#dc0a2d");
+        ThemeService.changeColor("#E44A4C");
         PokegodexHeaderService.resetHistoryBackPath();
     }
 
