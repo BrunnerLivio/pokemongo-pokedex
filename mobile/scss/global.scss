@@ -23,3 +23,11 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

@@ -15,6 +15,7 @@
     </header>
     <pokemon-detail-specs></pokemon-detail-specs>
     <div class="pokemon-detail-body">
+        <h2 ng-style="{'background-color':ctrl.typeColor}">Stats</h2>
         <div class="row">
             <div class="column">
                 <div class="pokemon-detail-body-weaknesses">
@@ -24,6 +25,7 @@
             </div>
             <pokemon-detail-stats-chart pokemon="ctrl.pokemon"></pokemon-detail-stats-chart>
         </div>
+        <h2 ng-style="{'background-color':ctrl.typeColor}">Evolution</h2>
         <div class="pokemon-detail-body-evolutions">
             <div class="pokemon-detail-body-evolution" ng-repeat="evolution in ctrl.pokemon.Evolutions" ng-click="ctrl.gotoEvolution(evolution)">
                 <img src="assets/images/pokemons/{{evolution.Id | numberFixedLength:3}}.png" />
