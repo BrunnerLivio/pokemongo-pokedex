@@ -12,7 +12,8 @@ class GeneratePokemons {
 
                 let formattedPokemons = pokemons.map(pokemon => {
                     return {
-                        'Name': pokemon.Name
+                        'Name': pokemon.Name,
+                        'Id': pokemon.Id
                     };
                 });
                 resolve(formattedPokemons);
