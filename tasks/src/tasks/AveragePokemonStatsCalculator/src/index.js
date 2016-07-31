@@ -1,6 +1,6 @@
 import fs from 'fs';
 import _ from 'lodash';
-fs.readFile('../globalData/Pokemon.json', 'utf8', function (err, data) {
+fs.readFile('../shared/data/Pokemon.json', 'utf8', function (err, data) {
     if (err) {
         return console.log(err);
     }
@@ -33,5 +33,5 @@ fs.readFile('../globalData/Pokemon.json', 'utf8', function (err, data) {
         if (typeof statsObj[key] !== 'object')
             statsObj[key] /= pokemons.length;
     }
-    fs.writeFile('../globalData/AveragePokemonStats.json', JSON.stringify(statsObj));
+    fs.writeFile('../shared/data/AveragePokemonStats.json', JSON.stringify(statsObj));
 });
