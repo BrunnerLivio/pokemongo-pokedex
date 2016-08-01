@@ -2,15 +2,8 @@ import fs from 'fs';
 import _ from 'lodash';
 import GeneratePokemon from './GeneratePokemons';
 import GenerateMoves from './GenerateMoves';
+import GenerateItems from './GenerateItems';
 
-function getPokemons(pokemons) {
-    return pokemons.map(pokemon => {
-        return {
-            "Name": pokemon.Name
-        };
-    });
-
-}
 
 fs.readFile('../shared/data/translations/en.json', 'utf8', function (err, data) {
     let translation = JSON.parse(data);
@@ -18,7 +11,10 @@ fs.readFile('../shared/data/translations/en.json', 'utf8', function (err, data) 
         translation.Pokemons = pokemons;
         GenerateMoves.Get().then(moves => {
             translation.Moves = moves;
-            fs.writeFile('../shared/data/translations/en.json', JSON.stringify(translation));
+            GenerateItems.Get().then(items => {
+                translation.Items = items;
+                fs.writeFile('../shared/data/translations/en.json', JSON.stringify(translation));
+            });
         });
     });
 

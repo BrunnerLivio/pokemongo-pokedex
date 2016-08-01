@@ -1,1 +1,1047 @@
-{"language":"English","Pokemons":[{"Name":"Bulbasaur","Id":1},{"Name":"Ivysaur","Id":2},{"Name":"Venusaur","Id":3},{"Name":"Charmander","Id":4},{"Name":"Charmeleon","Id":5},{"Name":"Charizard","Id":6},{"Name":"Squirtle","Id":7},{"Name":"Wartortle","Id":8},{"Name":"Blastoise","Id":9},{"Name":"Caterpie","Id":10},{"Name":"Metapod","Id":11},{"Name":"Butterfree","Id":12},{"Name":"Weedle","Id":13},{"Name":"Kakuna","Id":14},{"Name":"Beedrill","Id":15},{"Name":"Pidgey","Id":16},{"Name":"Pidgeotto","Id":17},{"Name":"Pidgeot","Id":18},{"Name":"Rattata","Id":19},{"Name":"Raticate","Id":20},{"Name":"Spearow","Id":21},{"Name":"Fearow","Id":22},{"Name":"Ekans","Id":23},{"Name":"Arbok","Id":24},{"Name":"Pikachu","Id":25},{"Name":"Raichu","Id":26},{"Name":"Sandshrew","Id":27},{"Name":"Sandslash","Id":28},{"Name":"Nidoran","Id":29},{"Name":"Nidorina","Id":30},{"Name":"Nidoqueen","Id":31},{"Name":"Nidoran","Id":32},{"Name":"Nidorino","Id":33},{"Name":"Nidoking","Id":34},{"Name":"Clefairy","Id":35},{"Name":"Clefable","Id":36},{"Name":"Vulpix","Id":37},{"Name":"Ninetales","Id":38},{"Name":"Jigglypuff","Id":39},{"Name":"Wigglytuff","Id":40},{"Name":"Zubat","Id":41},{"Name":"Golbat","Id":42},{"Name":"Oddish","Id":43},{"Name":"Gloom","Id":44},{"Name":"Vileplume","Id":45},{"Name":"Paras","Id":46},{"Name":"Parasect","Id":47},{"Name":"Venonat","Id":48},{"Name":"Venomoth","Id":49},{"Name":"Diglett","Id":50},{"Name":"Dugtrio","Id":51},{"Name":"Meowth","Id":52},{"Name":"Persian","Id":53},{"Name":"Psyduck","Id":54},{"Name":"Golduck","Id":55},{"Name":"Mankey","Id":56},{"Name":"Primeape","Id":57},{"Name":"Growlithe","Id":58},{"Name":"Arcanine","Id":59},{"Name":"Poliwag","Id":60},{"Name":"Poliwhirl","Id":61},{"Name":"Poliwrath","Id":62},{"Name":"Abra","Id":63},{"Name":"Kadabra","Id":64},{"Name":"Alakazam","Id":65},{"Name":"Machop","Id":66},{"Name":"Machoke","Id":67},{"Name":"Machamp","Id":68},{"Name":"Bellsprout","Id":69},{"Name":"Weepinbell","Id":70},{"Name":"Victreebel","Id":71},{"Name":"Tentacool","Id":72},{"Name":"Tentacruel","Id":73},{"Name":"Geodude","Id":74},{"Name":"Graveler","Id":75},{"Name":"Golem","Id":76},{"Name":"Ponyta","Id":77},{"Name":"Rapidash","Id":78},{"Name":"Slowpoke","Id":79},{"Name":"Slowbro","Id":80},{"Name":"Magnemite","Id":81},{"Name":"Magneton","Id":82},{"Name":"Farfetchd","Id":83},{"Name":"Doduo","Id":84},{"Name":"Dodrio","Id":85},{"Name":"Seel","Id":86},{"Name":"Dewgong","Id":87},{"Name":"Grimer","Id":88},{"Name":"Muk","Id":89},{"Name":"Shellder","Id":90},{"Name":"Cloyster","Id":91},{"Name":"Gastly","Id":92},{"Name":"Haunter","Id":93},{"Name":"Gengar","Id":94},{"Name":"Onix","Id":95},{"Name":"Drowzee","Id":96},{"Name":"Hypno","Id":97},{"Name":"Krabby","Id":98},{"Name":"Kingler","Id":99},{"Name":"Voltorb","Id":100},{"Name":"Electrode","Id":101},{"Name":"Exeggcute","Id":102},{"Name":"Exeggutor","Id":103},{"Name":"Cubone","Id":104},{"Name":"Marowak","Id":105},{"Name":"Hitmonlee","Id":106},{"Name":"Hitmonchan","Id":107},{"Name":"Lickitung","Id":108},{"Name":"Koffing","Id":109},{"Name":"Weezing","Id":110},{"Name":"Rhyhorn","Id":111},{"Name":"Rhydon","Id":112},{"Name":"Chansey","Id":113},{"Name":"Tangela","Id":114},{"Name":"Kangaskhan","Id":115},{"Name":"Horsea","Id":116},{"Name":"Seadra","Id":117},{"Name":"Goldeen","Id":118},{"Name":"Seaking","Id":119},{"Name":"Staryu","Id":120},{"Name":"Starmie","Id":121},{"Name":"Mr","Id":122},{"Name":"Scyther","Id":123},{"Name":"Jynx","Id":124},{"Name":"Electabuzz","Id":125},{"Name":"Magmar","Id":126},{"Name":"Pinsir","Id":127},{"Name":"Tauros","Id":128},{"Name":"Magikarp","Id":129},{"Name":"Gyarados","Id":130},{"Name":"Lapras","Id":131},{"Name":"Ditto","Id":132},{"Name":"Eevee","Id":133},{"Name":"Vaporeon","Id":134},{"Name":"Jolteon","Id":135},{"Name":"Flareon","Id":136},{"Name":"Porygon","Id":137},{"Name":"Omanyte","Id":138},{"Name":"Omastar","Id":139},{"Name":"Kabuto","Id":140},{"Name":"Kabutops","Id":141},{"Name":"Aerodactyl","Id":142},{"Name":"Snorlax","Id":143},{"Name":"Articuno","Id":144},{"Name":"Zapdos","Id":145},{"Name":"Moltres","Id":146},{"Name":"Dratini","Id":147},{"Name":"Dragonair","Id":148},{"Name":"Dragonite","Id":149},{"Name":"Mewtwo","Id":150},{"Name":"Mew","Id":151}],"Moves":[{"Name":"Wrap","Id":13},{"Name":"Hyper Beam","Id":14},{"Name":"Dark Pulse","Id":16},{"Name":"Sludge","Id":18},{"Name":"Vice Grip","Id":20},{"Name":"Flame Wheel","Id":21},{"Name":"Megahorn","Id":22},{"Name":"Flamethrower","Id":24},{"Name":"Dig","Id":26},{"Name":"Cross Chop","Id":28},{"Name":"Psybeam","Id":30},{"Name":"Earthquake","Id":31},{"Name":"Stone Edge","Id":32},{"Name":"Ice Punch","Id":33},{"Name":"Heart Stamp","Id":34},{"Name":"Discharge","Id":35},{"Name":"Flash Cannon","Id":36},{"Name":"Drill Peck","Id":38},{"Name":"Ice Beam","Id":39},{"Name":"Blizzard","Id":40},{"Name":"Heat Wave","Id":42},{"Name":"Aerial Ace","Id":45},{"Name":"Drill Run","Id":46},{"Name":"Petal Blizzard","Id":47},{"Name":"Mega Drain","Id":48},{"Name":"Bug Buzz","Id":49},{"Name":"Poison Fang","Id":50},{"Name":"Night Slash","Id":51},{"Name":"Bubble Beam","Id":53},{"Name":"Submission","Id":54},{"Name":"Low Sweep","Id":56},{"Name":"Aqua Jet","Id":57},{"Name":"Aqua Tail","Id":58},{"Name":"Seed Bomb","Id":59},{"Name":"Psyshock","Id":60},{"Name":"Ancient Power","Id":62},{"Name":"Rock Tomb","Id":63},{"Name":"Rock Slide","Id":64},{"Name":"Power Gem","Id":65},{"Name":"Shadow Sneak","Id":66},{"Name":"Shadow Punch","Id":67},{"Name":"Ominous Wind","Id":69},{"Name":"Shadow Ball","Id":70},{"Name":"Magnet Bomb","Id":72},{"Name":"Iron Head","Id":74},{"Name":"Parabolic Charge","Id":75},{"Name":"Thunder Punch","Id":77},{"Name":"Thunder","Id":78},{"Name":"Thunderbolt","Id":79},{"Name":"Twister","Id":80},{"Name":"Dragon Pulse","Id":82},{"Name":"Dragon Claw","Id":83},{"Name":"Disarming Voice","Id":84},{"Name":"Draining Kiss","Id":85},{"Name":"Dazzling Gleam","Id":86},{"Name":"Moonblast","Id":87},{"Name":"Play Rough","Id":88},{"Name":"Cross Poison","Id":89},{"Name":"Sludge Bomb","Id":90},{"Name":"Sludge Wave","Id":91},{"Name":"Gunk Shot","Id":92},{"Name":"Bone Club","Id":94},{"Name":"Bulldoze","Id":95},{"Name":"Mud Bomb","Id":96},{"Name":"Signal Beam","Id":99},{"Name":"X Scissor","Id":100},{"Name":"Flame Charge","Id":101},{"Name":"Flame Burst","Id":102},{"Name":"Fire Blast","Id":103},{"Name":"Brine","Id":104},{"Name":"Water Pulse","Id":105},{"Name":"Scald","Id":106},{"Name":"Hydro Pump","Id":107},{"Name":"Psychic","Id":108},{"Name":"Psystrike","Id":109},{"Name":"Icy Wind","Id":111},{"Name":"Giga Drain","Id":114},{"Name":"Fire Punch","Id":115},{"Name":"Solar Beam","Id":116},{"Name":"Leaf Blade","Id":117},{"Name":"Power Whip","Id":118},{"Name":"Air Cutter","Id":121},{"Name":"Hurricane","Id":122},{"Name":"Brick Break","Id":123},{"Name":"Swift","Id":125},{"Name":"Horn Attack","Id":126},{"Name":"Stomp","Id":127},{"Name":"Hyper Fang","Id":129},{"Name":"Body Slam","Id":131},{"Name":"Rest","Id":132},{"Name":"Struggle","Id":133},{"Name":"Scald Blastoise","Id":134},{"Name":"Hydro Pump Blastoise","Id":135},{"Name":"Wrap Green","Id":136},{"Name":"Wrap Pink","Id":137},{"Name":"Fury Cutter","Id":200},{"Name":"Bug Bite","Id":201},{"Name":"Bite","Id":202},{"Name":"Sucker Punch","Id":203},{"Name":"Dragon Breath","Id":204},{"Name":"Thunder Shock","Id":205},{"Name":"Spark","Id":206},{"Name":"Low Kick","Id":207},{"Name":"Karate Chop","Id":208},{"Name":"Ember","Id":209},{"Name":"Wing Attack","Id":210},{"Name":"Peck","Id":211},{"Name":"Lick","Id":212},{"Name":"Shadow Claw","Id":213},{"Name":"Vine Whip","Id":214},{"Name":"Razor Leaf","Id":215},{"Name":"Mud Shot","Id":216},{"Name":"Ice Shard","Id":217},{"Name":"Frost Breath","Id":218},{"Name":"Quick Attack","Id":219},{"Name":"Scratch","Id":220},{"Name":"Tackle","Id":221},{"Name":"Pound","Id":222},{"Name":"Cut","Id":223},{"Name":"Poison Jab","Id":224},{"Name":"Acid","Id":225},{"Name":"Psycho Cut","Id":226},{"Name":"Rock Throw","Id":227},{"Name":"Metal Claw","Id":228},{"Name":"Bullet Punch","Id":229},{"Name":"Water Gun","Id":230},{"Name":"Splash","Id":231},{"Name":"Water Gun  Blastoise","Id":232},{"Name":"Mud Slap","Id":233},{"Name":"Zen Headbutt","Id":234},{"Name":"Confusion","Id":235},{"Name":"Poison Sting","Id":236},{"Name":"Bubble","Id":237},{"Name":"Feint Attack","Id":238},{"Name":"Steel Wing","Id":239},{"Name":"Fire Fang","Id":240},{"Name":"Rock Smash","Id":241}]}
+{
+    "Language": "English",
+    "Application": {
+        "AvgHeight": "Avg. Height",
+        "AvgWeight": "Avg. Weight",
+        "Stats": "Stats",
+        "Evolution": "Evolution",
+        "Weaknesses": "Weaknesses",
+        "Resistance": "Resistance",
+        "Immune": "Immune",
+        "STA": "STA",
+        "ATK": "ATK",
+        "DEF": "DEF",
+        "Candy": "Candy",
+        "Type": "Type",
+        "BaseDefence": "Base Defence",
+        "BaseAttack": "Base Attack",
+        "BaseStamina": "Base Stamina",
+        "BaseCaptureRate": "Base Capture Rate",
+        "Flee Chance": "Flee Chance",
+        "DodgeInterval": "Dodge Interval",
+        "Items": "Items",
+        "Moves": "Moves",
+        "Badges": "Badges",
+        "BasicAttacks": "Basic Attacks",
+        "SpecialAttacks": "Special Attacks",
+        "Close": "Close"
+    },
+    "Types": {
+        "ROCK": {
+            "Name": "Rock",
+            "Shortname": "RCK"
+        },
+        "WATER": {
+            "Name": "Water",
+            "Shortname": "WTR"
+        },
+        "ELECTRIC": {
+            "Name": "Electric",
+            "Shortname": "ELK"
+        },
+        "FIGHTING": {
+            "Name": "Fighting",
+            "Shortname": "FGT"
+        },
+        "FIRE": {
+            "Name": "Fire",
+            "Shortname": "FIR"
+        },
+        "BUG": {
+            "Name": "Bug",
+            "Shortname": "BUG"
+        },
+        "GROUND": {
+            "Name": "Ground",
+            "Shortname": "GRD"
+        },
+        "DRAGON": {
+            "Name": "Dragon",
+            "Shortname": "DRG"
+        },
+        "GHOST": {
+            "Name": "Ghost",
+            "Shortname": "GST"
+        },
+        "ICE": {
+            "Name": "Ice",
+            "Shortname": "ICE"
+        },
+        "STEEL": {
+            "Name": "Steel",
+            "Shortname": "STL"
+        },
+        "PYSCHIC": {
+            "Name": "Psychic",
+            "Shortname": "PYS"
+        },
+        "FAIRY": {
+            "Name": "Fairy",
+            "Shortname": "FRY"
+        },
+        "NORMAL": {
+            "Name": "Normal",
+            "Shortname": "NRL"
+        },
+        "FLYING": {
+            "Name": "Flying",
+            "Shortname": "FLY"
+        },
+        "POISON": {
+            "Name": "POISON",
+            "Shortname": "POS"
+        },
+        "GRASS": {
+            "Name": "Grass",
+            "Shortname": "GRS"
+        }
+    } ,
+    "Pokemons": {
+        "1": {
+            "Name": "Bulbasaur"
+        },
+        "2": {
+            "Name": "Ivysaur"
+        },
+        "3": {
+            "Name": "Venusaur"
+        },
+        "4": {
+            "Name": "Charmander"
+        },
+        "5": {
+            "Name": "Charmeleon"
+        },
+        "6": {
+            "Name": "Charizard"
+        },
+        "7": {
+            "Name": "Squirtle"
+        },
+        "8": {
+            "Name": "Wartortle"
+        },
+        "9": {
+            "Name": "Blastoise"
+        },
+        "10": {
+            "Name": "Caterpie"
+        },
+        "11": {
+            "Name": "Metapod"
+        },
+        "12": {
+            "Name": "Butterfree"
+        },
+        "13": {
+            "Name": "Weedle"
+        },
+        "14": {
+            "Name": "Kakuna"
+        },
+        "15": {
+            "Name": "Beedrill"
+        },
+        "16": {
+            "Name": "Pidgey"
+        },
+        "17": {
+            "Name": "Pidgeotto"
+        },
+        "18": {
+            "Name": "Pidgeot"
+        },
+        "19": {
+            "Name": "Rattata"
+        },
+        "20": {
+            "Name": "Raticate"
+        },
+        "21": {
+            "Name": "Spearow"
+        },
+        "22": {
+            "Name": "Fearow"
+        },
+        "23": {
+            "Name": "Ekans"
+        },
+        "24": {
+            "Name": "Arbok"
+        },
+        "25": {
+            "Name": "Pikachu"
+        },
+        "26": {
+            "Name": "Raichu"
+        },
+        "27": {
+            "Name": "Sandshrew"
+        },
+        "28": {
+            "Name": "Sandslash"
+        },
+        "29": {
+            "Name": "Nidoran"
+        },
+        "30": {
+            "Name": "Nidorina"
+        },
+        "31": {
+            "Name": "Nidoqueen"
+        },
+        "32": {
+            "Name": "Nidoran"
+        },
+        "33": {
+            "Name": "Nidorino"
+        },
+        "34": {
+            "Name": "Nidoking"
+        },
+        "35": {
+            "Name": "Clefairy"
+        },
+        "36": {
+            "Name": "Clefable"
+        },
+        "37": {
+            "Name": "Vulpix"
+        },
+        "38": {
+            "Name": "Ninetales"
+        },
+        "39": {
+            "Name": "Jigglypuff"
+        },
+        "40": {
+            "Name": "Wigglytuff"
+        },
+        "41": {
+            "Name": "Zubat"
+        },
+        "42": {
+            "Name": "Golbat"
+        },
+        "43": {
+            "Name": "Oddish"
+        },
+        "44": {
+            "Name": "Gloom"
+        },
+        "45": {
+            "Name": "Vileplume"
+        },
+        "46": {
+            "Name": "Paras"
+        },
+        "47": {
+            "Name": "Parasect"
+        },
+        "48": {
+            "Name": "Venonat"
+        },
+        "49": {
+            "Name": "Venomoth"
+        },
+        "50": {
+            "Name": "Diglett"
+        },
+        "51": {
+            "Name": "Dugtrio"
+        },
+        "52": {
+            "Name": "Meowth"
+        },
+        "53": {
+            "Name": "Persian"
+        },
+        "54": {
+            "Name": "Psyduck"
+        },
+        "55": {
+            "Name": "Golduck"
+        },
+        "56": {
+            "Name": "Mankey"
+        },
+        "57": {
+            "Name": "Primeape"
+        },
+        "58": {
+            "Name": "Growlithe"
+        },
+        "59": {
+            "Name": "Arcanine"
+        },
+        "60": {
+            "Name": "Poliwag"
+        },
+        "61": {
+            "Name": "Poliwhirl"
+        },
+        "62": {
+            "Name": "Poliwrath"
+        },
+        "63": {
+            "Name": "Abra"
+        },
+        "64": {
+            "Name": "Kadabra"
+        },
+        "65": {
+            "Name": "Alakazam"
+        },
+        "66": {
+            "Name": "Machop"
+        },
+        "67": {
+            "Name": "Machoke"
+        },
+        "68": {
+            "Name": "Machamp"
+        },
+        "69": {
+            "Name": "Bellsprout"
+        },
+        "70": {
+            "Name": "Weepinbell"
+        },
+        "71": {
+            "Name": "Victreebel"
+        },
+        "72": {
+            "Name": "Tentacool"
+        },
+        "73": {
+            "Name": "Tentacruel"
+        },
+        "74": {
+            "Name": "Geodude"
+        },
+        "75": {
+            "Name": "Graveler"
+        },
+        "76": {
+            "Name": "Golem"
+        },
+        "77": {
+            "Name": "Ponyta"
+        },
+        "78": {
+            "Name": "Rapidash"
+        },
+        "79": {
+            "Name": "Slowpoke"
+        },
+        "80": {
+            "Name": "Slowbro"
+        },
+        "81": {
+            "Name": "Magnemite"
+        },
+        "82": {
+            "Name": "Magneton"
+        },
+        "83": {
+            "Name": "Farfetchd"
+        },
+        "84": {
+            "Name": "Doduo"
+        },
+        "85": {
+            "Name": "Dodrio"
+        },
+        "86": {
+            "Name": "Seel"
+        },
+        "87": {
+            "Name": "Dewgong"
+        },
+        "88": {
+            "Name": "Grimer"
+        },
+        "89": {
+            "Name": "Muk"
+        },
+        "90": {
+            "Name": "Shellder"
+        },
+        "91": {
+            "Name": "Cloyster"
+        },
+        "92": {
+            "Name": "Gastly"
+        },
+        "93": {
+            "Name": "Haunter"
+        },
+        "94": {
+            "Name": "Gengar"
+        },
+        "95": {
+            "Name": "Onix"
+        },
+        "96": {
+            "Name": "Drowzee"
+        },
+        "97": {
+            "Name": "Hypno"
+        },
+        "98": {
+            "Name": "Krabby"
+        },
+        "99": {
+            "Name": "Kingler"
+        },
+        "100": {
+            "Name": "Voltorb"
+        },
+        "101": {
+            "Name": "Electrode"
+        },
+        "102": {
+            "Name": "Exeggcute"
+        },
+        "103": {
+            "Name": "Exeggutor"
+        },
+        "104": {
+            "Name": "Cubone"
+        },
+        "105": {
+            "Name": "Marowak"
+        },
+        "106": {
+            "Name": "Hitmonlee"
+        },
+        "107": {
+            "Name": "Hitmonchan"
+        },
+        "108": {
+            "Name": "Lickitung"
+        },
+        "109": {
+            "Name": "Koffing"
+        },
+        "110": {
+            "Name": "Weezing"
+        },
+        "111": {
+            "Name": "Rhyhorn"
+        },
+        "112": {
+            "Name": "Rhydon"
+        },
+        "113": {
+            "Name": "Chansey"
+        },
+        "114": {
+            "Name": "Tangela"
+        },
+        "115": {
+            "Name": "Kangaskhan"
+        },
+        "116": {
+            "Name": "Horsea"
+        },
+        "117": {
+            "Name": "Seadra"
+        },
+        "118": {
+            "Name": "Goldeen"
+        },
+        "119": {
+            "Name": "Seaking"
+        },
+        "120": {
+            "Name": "Staryu"
+        },
+        "121": {
+            "Name": "Starmie"
+        },
+        "122": {
+            "Name": "Mr"
+        },
+        "123": {
+            "Name": "Scyther"
+        },
+        "124": {
+            "Name": "Jynx"
+        },
+        "125": {
+            "Name": "Electabuzz"
+        },
+        "126": {
+            "Name": "Magmar"
+        },
+        "127": {
+            "Name": "Pinsir"
+        },
+        "128": {
+            "Name": "Tauros"
+        },
+        "129": {
+            "Name": "Magikarp"
+        },
+        "130": {
+            "Name": "Gyarados"
+        },
+        "131": {
+            "Name": "Lapras"
+        },
+        "132": {
+            "Name": "Ditto"
+        },
+        "133": {
+            "Name": "Eevee"
+        },
+        "134": {
+            "Name": "Vaporeon"
+        },
+        "135": {
+            "Name": "Jolteon"
+        },
+        "136": {
+            "Name": "Flareon"
+        },
+        "137": {
+            "Name": "Porygon"
+        },
+        "138": {
+            "Name": "Omanyte"
+        },
+        "139": {
+            "Name": "Omastar"
+        },
+        "140": {
+            "Name": "Kabuto"
+        },
+        "141": {
+            "Name": "Kabutops"
+        },
+        "142": {
+            "Name": "Aerodactyl"
+        },
+        "143": {
+            "Name": "Snorlax"
+        },
+        "144": {
+            "Name": "Articuno"
+        },
+        "145": {
+            "Name": "Zapdos"
+        },
+        "146": {
+            "Name": "Moltres"
+        },
+        "147": {
+            "Name": "Dratini"
+        },
+        "148": {
+            "Name": "Dragonair"
+        },
+        "149": {
+            "Name": "Dragonite"
+        },
+        "150": {
+            "Name": "Mewtwo"
+        },
+        "151": {
+            "Name": "Mew"
+        }
+    },
+    "Moves": {
+        "13": {
+            "Name": "Wrap"
+        },
+        "14": {
+            "Name": "Hyper Beam"
+        },
+        "16": {
+            "Name": "Dark Pulse"
+        },
+        "18": {
+            "Name": "Sludge"
+        },
+        "20": {
+            "Name": "Vice Grip"
+        },
+        "21": {
+            "Name": "Flame Wheel"
+        },
+        "22": {
+            "Name": "Megahorn"
+        },
+        "24": {
+            "Name": "Flamethrower"
+        },
+        "26": {
+            "Name": "Dig"
+        },
+        "28": {
+            "Name": "Cross Chop"
+        },
+        "30": {
+            "Name": "Psybeam"
+        },
+        "31": {
+            "Name": "Earthquake"
+        },
+        "32": {
+            "Name": "Stone Edge"
+        },
+        "33": {
+            "Name": "Ice Punch"
+        },
+        "34": {
+            "Name": "Heart Stamp"
+        },
+        "35": {
+            "Name": "Discharge"
+        },
+        "36": {
+            "Name": "Flash Cannon"
+        },
+        "38": {
+            "Name": "Drill Peck"
+        },
+        "39": {
+            "Name": "Ice Beam"
+        },
+        "40": {
+            "Name": "Blizzard"
+        },
+        "42": {
+            "Name": "Heat Wave"
+        },
+        "45": {
+            "Name": "Aerial Ace"
+        },
+        "46": {
+            "Name": "Drill Run"
+        },
+        "47": {
+            "Name": "Petal Blizzard"
+        },
+        "48": {
+            "Name": "Mega Drain"
+        },
+        "49": {
+            "Name": "Bug Buzz"
+        },
+        "50": {
+            "Name": "Poison Fang"
+        },
+        "51": {
+            "Name": "Night Slash"
+        },
+        "53": {
+            "Name": "Bubble Beam"
+        },
+        "54": {
+            "Name": "Submission"
+        },
+        "56": {
+            "Name": "Low Sweep"
+        },
+        "57": {
+            "Name": "Aqua Jet"
+        },
+        "58": {
+            "Name": "Aqua Tail"
+        },
+        "59": {
+            "Name": "Seed Bomb"
+        },
+        "60": {
+            "Name": "Psyshock"
+        },
+        "62": {
+            "Name": "Ancient Power"
+        },
+        "63": {
+            "Name": "Rock Tomb"
+        },
+        "64": {
+            "Name": "Rock Slide"
+        },
+        "65": {
+            "Name": "Power Gem"
+        },
+        "66": {
+            "Name": "Shadow Sneak"
+        },
+        "67": {
+            "Name": "Shadow Punch"
+        },
+        "69": {
+            "Name": "Ominous Wind"
+        },
+        "70": {
+            "Name": "Shadow Ball"
+        },
+        "72": {
+            "Name": "Magnet Bomb"
+        },
+        "74": {
+            "Name": "Iron Head"
+        },
+        "75": {
+            "Name": "Parabolic Charge"
+        },
+        "77": {
+            "Name": "Thunder Punch"
+        },
+        "78": {
+            "Name": "Thunder"
+        },
+        "79": {
+            "Name": "Thunderbolt"
+        },
+        "80": {
+            "Name": "Twister"
+        },
+        "82": {
+            "Name": "Dragon Pulse"
+        },
+        "83": {
+            "Name": "Dragon Claw"
+        },
+        "84": {
+            "Name": "Disarming Voice"
+        },
+        "85": {
+            "Name": "Draining Kiss"
+        },
+        "86": {
+            "Name": "Dazzling Gleam"
+        },
+        "87": {
+            "Name": "Moonblast"
+        },
+        "88": {
+            "Name": "Play Rough"
+        },
+        "89": {
+            "Name": "Cross Poison"
+        },
+        "90": {
+            "Name": "Sludge Bomb"
+        },
+        "91": {
+            "Name": "Sludge Wave"
+        },
+        "92": {
+            "Name": "Gunk Shot"
+        },
+        "94": {
+            "Name": "Bone Club"
+        },
+        "95": {
+            "Name": "Bulldoze"
+        },
+        "96": {
+            "Name": "Mud Bomb"
+        },
+        "99": {
+            "Name": "Signal Beam"
+        },
+        "100": {
+            "Name": "X Scissor"
+        },
+        "101": {
+            "Name": "Flame Charge"
+        },
+        "102": {
+            "Name": "Flame Burst"
+        },
+        "103": {
+            "Name": "Fire Blast"
+        },
+        "104": {
+            "Name": "Brine"
+        },
+        "105": {
+            "Name": "Water Pulse"
+        },
+        "106": {
+            "Name": "Scald"
+        },
+        "107": {
+            "Name": "Hydro Pump"
+        },
+        "108": {
+            "Name": "Psychic"
+        },
+        "109": {
+            "Name": "Psystrike"
+        },
+        "111": {
+            "Name": "Icy Wind"
+        },
+        "114": {
+            "Name": "Giga Drain"
+        },
+        "115": {
+            "Name": "Fire Punch"
+        },
+        "116": {
+            "Name": "Solar Beam"
+        },
+        "117": {
+            "Name": "Leaf Blade"
+        },
+        "118": {
+            "Name": "Power Whip"
+        },
+        "121": {
+            "Name": "Air Cutter"
+        },
+        "122": {
+            "Name": "Hurricane"
+        },
+        "123": {
+            "Name": "Brick Break"
+        },
+        "125": {
+            "Name": "Swift"
+        },
+        "126": {
+            "Name": "Horn Attack"
+        },
+        "127": {
+            "Name": "Stomp"
+        },
+        "129": {
+            "Name": "Hyper Fang"
+        },
+        "131": {
+            "Name": "Body Slam"
+        },
+        "132": {
+            "Name": "Rest"
+        },
+        "133": {
+            "Name": "Struggle"
+        },
+        "134": {
+            "Name": "Scald Blastoise"
+        },
+        "135": {
+            "Name": "Hydro Pump Blastoise"
+        },
+        "136": {
+            "Name": "Wrap Green"
+        },
+        "137": {
+            "Name": "Wrap Pink"
+        },
+        "200": {
+            "Name": "Fury Cutter"
+        },
+        "201": {
+            "Name": "Bug Bite"
+        },
+        "202": {
+            "Name": "Bite"
+        },
+        "203": {
+            "Name": "Sucker Punch"
+        },
+        "204": {
+            "Name": "Dragon Breath"
+        },
+        "205": {
+            "Name": "Thunder Shock"
+        },
+        "206": {
+            "Name": "Spark"
+        },
+        "207": {
+            "Name": "Low Kick"
+        },
+        "208": {
+            "Name": "Karate Chop"
+        },
+        "209": {
+            "Name": "Ember"
+        },
+        "210": {
+            "Name": "Wing Attack"
+        },
+        "211": {
+            "Name": "Peck"
+        },
+        "212": {
+            "Name": "Lick"
+        },
+        "213": {
+            "Name": "Shadow Claw"
+        },
+        "214": {
+            "Name": "Vine Whip"
+        },
+        "215": {
+            "Name": "Razor Leaf"
+        },
+        "216": {
+            "Name": "Mud Shot"
+        },
+        "217": {
+            "Name": "Ice Shard"
+        },
+        "218": {
+            "Name": "Frost Breath"
+        },
+        "219": {
+            "Name": "Quick Attack"
+        },
+        "220": {
+            "Name": "Scratch"
+        },
+        "221": {
+            "Name": "Tackle"
+        },
+        "222": {
+            "Name": "Pound"
+        },
+        "223": {
+            "Name": "Cut"
+        },
+        "224": {
+            "Name": "Poison Jab"
+        },
+        "225": {
+            "Name": "Acid"
+        },
+        "226": {
+            "Name": "Psycho Cut"
+        },
+        "227": {
+            "Name": "Rock Throw"
+        },
+        "228": {
+            "Name": "Metal Claw"
+        },
+        "229": {
+            "Name": "Bullet Punch"
+        },
+        "230": {
+            "Name": "Water Gun"
+        },
+        "231": {
+            "Name": "Splash"
+        },
+        "232": {
+            "Name": "Water Gun  Blastoise"
+        },
+        "233": {
+            "Name": "Mud Slap"
+        },
+        "234": {
+            "Name": "Zen Headbutt"
+        },
+        "235": {
+            "Name": "Confusion"
+        },
+        "236": {
+            "Name": "Poison Sting"
+        },
+        "237": {
+            "Name": "Bubble"
+        },
+        "238": {
+            "Name": "Feint Attack"
+        },
+        "239": {
+            "Name": "Steel Wing"
+        },
+        "240": {
+            "Name": "Fire Fang"
+        },
+        "241": {
+            "Name": "Rock Smash"
+        }
+    },
+    "Items": {
+        "101": {
+            "Name": "Potion"
+        },
+        "102": {
+            "Name": "Super Potion"
+        },
+        "103": {
+            "Name": "Hyper Potion"
+        },
+        "104": {
+            "Name": "Max Potion"
+        },
+        "201": {
+            "Name": "Revive"
+        },
+        "202": {
+            "Name": "Max Revive"
+        },
+        "301": {
+            "Name": "Lucky Egg"
+        },
+        "401": {
+            "Name": "Incense Ordinary"
+        },
+        "501": {
+            "Name": "Troy Disk"
+        },
+        "602": {
+            "Name": "X Attack"
+        },
+        "603": {
+            "Name": "X Defense"
+        },
+        "604": {
+            "Name": "X Miracle"
+        },
+        "701": {
+            "Name": "Razz Berry"
+        },
+        "702": {
+            "Name": "Bluk Berry"
+        },
+        "703": {
+            "Name": "Nanab Berry"
+        },
+        "704": {
+            "Name": "Wepar Berry"
+        },
+        "705": {
+            "Name": "Pinap Berry"
+        },
+        "801": {
+            "Name": "Special Camera"
+        },
+        "901": {
+            "Name": "Incubator Basic Unlimited"
+        },
+        "902": {
+            "Name": "Incubator Basic"
+        },
+        "1001": {
+            "Name": "Pokemon Storage Upgrade"
+        },
+        "1002": {
+            "Name": "Item Storage Upgrade"
+        },
+        "ITEM_GREAT_BALL": {
+            "Name": "Great Ball"
+        },
+        "ITEM_MASTER_BALL": {
+            "Name": "Master Ball"
+        },
+        "ITEM_POKE_BALL": {
+            "Name": "Poke Ball"
+        },
+        "ITEM_ULTRA_BALL": {
+            "Name": "Ultra Ball"
+        }
+    }
+}

@@ -10,10 +10,10 @@ class GeneratePokemons {
                 }
                 let pokemons = JSON.parse(data);
 
-                let formattedPokemons = pokemons.map(pokemon => {
-                    return {
-                        'Name': pokemon.Name,
-                        'Id': pokemon.Id
+                let formattedPokemons  = {};
+                _(pokemons).each(pokemon => {
+                    formattedPokemons[pokemon.Id] = {
+                        'Name': pokemon.Name
                     };
                 });
                 resolve(formattedPokemons);

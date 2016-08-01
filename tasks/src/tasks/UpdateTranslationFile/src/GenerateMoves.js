@@ -1,7 +1,7 @@
 import fs from 'fs';
 import _ from 'lodash';
 
-class GeneratePokemons {
+class GenerateMoves {
     static Get() {
         return new Promise((resolve, reject) => {
             fs.readFile('../shared/data/Move.json', 'utf8', function (err, data) {
@@ -9,18 +9,17 @@ class GeneratePokemons {
                     return console.log(err);
                 }
                 let moves = JSON.parse(data);
-
-                let formattedMoves = moves.map(move => {
-                    return {
-                        'Name': move.Name,
-                        'Id': move.Id
+                let movesFormatted = {};
+                _(moves).each(move => {
+                    movesFormatted[move.Id] = {
+                        'Name': move.Name
                     };
                 });
-                resolve(formattedMoves);
+                resolve(movesFormatted);
             });
         });
 
     }
 }
 
-module.exports = GeneratePokemons;
+module.exports = GenerateMoves;
