@@ -22,6 +22,11 @@
                     <poke-type ng-repeat="weakness in ctrl.pokemon.Weaknesses" type="{{weakness}}"></poke-type>
                 </div>
                 <h3 translate="Application.Weaknesses"></h3>
+
+                <div class="pokemon-detail-body-resistant">
+                    <poke-type ng-repeat="resistant in ctrl.pokemon.Resistant" type="{{resistant}}"></poke-type>
+                </div>
+                <h3 translate="Application.Resistant"></h3>
             </div>
             <pokemon-detail-stats-chart pokemon="ctrl.pokemon"></pokemon-detail-stats-chart>
         </div>

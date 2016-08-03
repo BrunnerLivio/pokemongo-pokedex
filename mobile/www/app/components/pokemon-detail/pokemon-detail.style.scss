@@ -108,7 +108,7 @@
                 transform: translateX(-50%);
             }
         }
-        &-weaknesses{
+        &-weaknesses, &-resistant{
             width:120px;
             display:flex;
             flex-direction: row;

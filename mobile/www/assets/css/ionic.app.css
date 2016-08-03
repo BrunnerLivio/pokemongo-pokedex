@@ -10014,7 +10014,6 @@ body {
 
 .pokemon-detail-body {
   background-color: white;
-  padding-top: 10px;
   padding-bottom: 30px; }
   .pokemon-detail-body h3 {
     font-size: 10px;
@@ -10044,7 +10043,7 @@ body {
       position: absolute;
       left: 50%;
       transform: translateX(-50%); }
-  .pokemon-detail-body-weaknesses {
+  .pokemon-detail-body-weaknesses, .pokemon-detail-body-resistant {
     width: 120px;
     display: flex;
     flex-direction: row;
