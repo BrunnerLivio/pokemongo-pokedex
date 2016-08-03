@@ -4,7 +4,13 @@
   function pokemonDetailMoves() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/pokemon-detail/pokemon-detail-specs/pokemon-detail-moves.template.html'
+      templateUrl: 'app/components/pokemon-detail/pokemon-detail-moves/pokemon-detail-moves.template.html',
+      controller: 'PokemonDetailMovesController',
+      controllerAs: 'ctrl',
+      replace: true,
+      scope: {
+        pokemon: '='
+      }
     };
     return directive;
   }
