@@ -1,11 +1,11 @@
 <div class="pokemon-detail" ng-class="{'slideIn' : !ctrl.slideIn}">
     <header class="pokemon-detail-header">
         <span class="pokemon-detail-number" ng-bind="ctrl.pokemon.Id | numberFixedLength:3"></span>
-        <h1 class="pokemon-detail-name" ng-bind="ctrl.pokemon.Name"></h1>
+        <h1 class="pokemon-detail-name" translate="Pokemons.{{ctrl.pokemon.Id}}.Name"></h1>
         <div class="pokemon-detail-types">
             <span ng-repeat="type in ctrl.pokemon.Types">
                 <span ng-if="$index > 0">/</span>
-            <span ng-bind="type.Name"></span>
+            <span translate="Types.{{type.Name | uppercase}}.Name"></span>
             </span>
             <span>Pokémon</span>
         </div>
@@ -15,17 +15,17 @@
     </header>
     <pokemon-detail-specs></pokemon-detail-specs>
     <div class="pokemon-detail-body">
-        <h2 ng-style="{'background-color':ctrl.typeColor}">Stats</h2>
+        <h2 ng-style="{'background-color':ctrl.typeColor}" translate="Application.Stats"></h2>
         <div class="row">
             <div class="column">
                 <div class="pokemon-detail-body-weaknesses">
                     <poke-type ng-repeat="weakness in ctrl.pokemon.Weaknesses" type="{{weakness}}"></poke-type>
                 </div>
-                <h3>Weaknesses</h3>
+                <h3 translate="Application.Weaknesses"></h3>
             </div>
             <pokemon-detail-stats-chart pokemon="ctrl.pokemon"></pokemon-detail-stats-chart>
         </div>
-        <h2 ng-style="{'background-color':ctrl.typeColor}">Evolution</h2>
+        <h2 ng-style="{'background-color':ctrl.typeColor}" translate="Application.Evolution"></h2>
         <div class="pokemon-detail-body-evolutions">
             <div class="pokemon-detail-body-evolution" ng-repeat="evolution in ctrl.pokemon.Evolutions" ng-click="ctrl.gotoEvolution(evolution)">
                 <img src="assets/images/pokemons/{{evolution.Id | numberFixedLength:3}}.png" />

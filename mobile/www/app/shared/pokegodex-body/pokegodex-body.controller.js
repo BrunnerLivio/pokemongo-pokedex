@@ -5,7 +5,6 @@
         var ctrl = this;
         ctrl.isBackgroundExtened = false;
         ThemeService.onColorChanged().then(null,null,function(newColor){
-            console.log(newColor);
             ctrl.animatedBackgroundColor = newColor;
             ctrl.isBackgroundExtened = true;
             $timeout(function(){

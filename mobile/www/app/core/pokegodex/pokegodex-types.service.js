@@ -40,49 +40,9 @@
             });
         }
 
-        function getShortname(name){
-            switch(name.toLowerCase()){
-                case 'rock':
-                    return 'RCK';
-                case 'water':
-                    return 'WTR';
-                case 'electric':
-                    return 'ELK';
-                case 'fighting':
-                    return 'FGT';
-                case 'fire':
-                    return 'FIR';
-                case 'bug':
-                    return 'BUG';
-                case 'ground':
-                    return 'GRD';
-                case 'dragon':
-                    return 'DRG';
-                case 'ghost':
-                    return 'GST';
-                case 'ice':
-                    return 'ICE';
-                case 'steel':
-                    return 'STL';
-                case 'psychic':
-                    return 'PSY';
-                case 'fairy':
-                    return 'FRY';
-                case 'normal':
-                    return 'NRL';
-                case 'flying':
-                    return 'FLY';
-                case 'poison':
-                    return 'POS';
-                case 'grass':
-                    return 'GRS';
-            }
-        }
-
         var service = {
             modifyPokemonData: modifyPokemonData,
-            getTypeColorByName: getTypeColorByName,
-            getShortname: getShortname
+            getTypeColorByName: getTypeColorByName
         };
 
         return service;

@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    function PokemonOverviewController(ThemeService, PokegodexHeaderService) {
+    function PokemonOverviewController(ThemeService, PokegodexHeaderService, $translate) {
         var ctrl = this;
         ThemeService.changeColor("#E44A4C");
         PokegodexHeaderService.resetHistoryBackPath();
