@@ -1,0 +1,6 @@
+[submodule "tasks/src/tasks/PokemonGoDataTransform"]
+	path = tasks/src/tasks/PokemonGoDataTransform
+	url = https://github.com/PokemonGOAPI/PokemonGoDataTransformer.git
+[submodule "tasks/src/tasks/PokemonDataGraber"]
+	path = tasks/src/tasks/PokemonDataGraber
+	url = https://github.com/PokemonGOAPI/PokemonDataGraber.git
