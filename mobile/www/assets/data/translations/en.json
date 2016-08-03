@@ -94,6 +94,10 @@
         "GRASS": {
             "Name": "Grass",
             "Shortname": "GRS"
+        },
+        "DARK": {
+            "Name": "Dark",
+            "Shortname": "DRK"
         }
     } ,
     "Pokemons": {

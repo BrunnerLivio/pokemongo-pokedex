@@ -21,7 +21,8 @@
             steel: '#AAAABB',
             ice: '#77DDFF',
             ghost: '#6666BB',
-            dragon: '#7766EE'
+            dragon: '#7766EE',
+            dark: "#705848"
         };
 
         function getTypeColorByName(name) {
