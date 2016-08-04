@@ -1,9 +1,12 @@
 (function () {
     'use strict';
 
-    function PokemonDetailMovesController($scope) {
+    function PokemonDetailMovesController($scope, PokegodexService) {
         var ctrl = this;
         function onPokemonLoaded() {
+            PokegodexService.getMoves(ctrl.pokemon.Moves).then(function (moves) {
+                ctrl.moves = moves;
+            });
             ctrl.typeColor = ctrl.pokemon.Types[0].Color;
         }
         $scope.$watch('pokemon', function (newValue) {
