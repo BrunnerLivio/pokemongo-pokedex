@@ -1,7 +1,6 @@
 (function () {
     'use strict';
     function link(scope, element, attrs) {
-        console.log(scope);
     }
 
     function energyUsage() {
@@ -15,8 +14,8 @@
             transclude: true,
             replace: true,
             scope: {
-                'type': '=',
-                'times': '='
+                'type': '@type',
+                'times': '@times'
             }
         };
         return directive;

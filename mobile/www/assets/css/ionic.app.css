@@ -9960,6 +9960,11 @@ body {
   margin-left: auto;
   width: calc(100% - 140px); }
 
+.pokemon-detail-moves {
+  margin: 0 10px; }
+  .pokemon-detail-moves .move-name {
+    flex: 1; }
+
 .pokemon-detail-header {
   height: 180px;
   width: 100%;
@@ -10112,3 +10117,27 @@ body {
   justify-content: center;
   text-transform: uppercase;
   font-size: 11px; }
+
+.energy-usage {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px; }
+  .energy-usage.normal-moves .energy {
+    background: #44b3fc;
+    background: -moz-linear-gradient(top, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    background: -webkit-linear-gradient(top, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    background: linear-gradient(to bottom, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b3fc', endColorstr='#6cdffc',GradientType=0 );
+    border: #AFDAFF 3px solid; }
+  .energy-usage.special-moves .energy {
+    background: #44b3fc;
+    background: -moz-linear-gradient(top, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    background: -webkit-linear-gradient(top, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    background: linear-gradient(to bottom, #44b3fc 0%, #4dc8fc 50%, #6cdffc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44b3fc', endColorstr='#6cdffc',GradientType=0 );
+    border: #AFDAFF 3px solid; }
+  .energy-usage .energy {
+    height: 18px;
+    flex: 1;
+    border-radius: 7px;
+    margin: 3px; }

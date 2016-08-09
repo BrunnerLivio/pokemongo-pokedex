@@ -1,3 +1,3 @@
-<div class="special-moves">
-    <div class="energy-usage" ng-repeat="move in ctrl.moves"></div>
+<div class="energy-usage" ng-class="{'special-moves' : ctrl.type == 'special', 'normal-moves' : ctrl.type == 'normal'}">
+    <div class="energy" ng-repeat="time in ctrl.timesArray"></div>
 </div>

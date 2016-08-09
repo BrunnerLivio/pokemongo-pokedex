@@ -1,7 +1,17 @@
 <div class="pokemon-detail-moves">
     <h2 ng-style="{'background-color':ctrl.typeColor}" translate="Application.Moves"></h2>
     <div ng-repeat="move in ctrl.moves">
-        {{move.Name}}
-        <energy-usage type="special"></energy-usage>
+        <div class="row">
+            <span ng-bind="move.Name" class="move-name"></span>
+            <span ng-bind="move.Power"></span>
+        </div>
+        <energy-usage type="normal" times="{{move.Energy.Times}}"></energy-usage>
+    </div>
+    <div ng-repeat="move in ctrl.specialMoves">
+        <div class="row">
+            <span ng-bind="move.Name" class="move-name"></span>
+            <span ng-bind="move.Power"></span>
+        </div>
+        <energy-usage type="special" times="{{move.Energy.Times}}"></energy-usage>
     </div>
 </div>
